@@ -1,3 +1,4 @@
+Its a Ecommerce store website with a modern ui/ux 
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
