@@ -1,0 +1,115 @@
+:root{
+    --Main-color: #0F1011;
+    --Primary-color: #FFFFFF;
+    --Secondary-color: #161718;
+    --Para-color: #a2a2a2;
+}
+*{
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.logo a{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--Primary-color);
+    text-decoration: none;
+    cursor: pointer;;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--Secondary-color);
+    border-radius: 60px;
+}
+.nav-links a{
+    color: var(--Para-color);
+    font-weight: 500;
+    padding: .5vw 1vw;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    background-color:  var(--Primary-color);
+    color: var(--Main-color);
+}
+ .cart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .cart i{
+     font-size: 20px;
+     color: var(--Primary-color);
+     background-color: var(--Secondary-color);
+     padding: 5px 10px;
+     border-radius: 50px;
+ }
+ .cart i:active{
+    background-color: var(--Primary-color);
+    color: var(--Main-color);
+ }
+ .cart button{
+     background-color: var(--Primary-color);
+     color: var(--Main-color);
+     border: none;
+     padding: 10px 20px;
+     border-radius: 25px;
+     cursor: pointer;
+     font-size: 15px;
+     font-weight: 500;
+}
+.cart button:active{
+    background-color: var(--Secondary-color);
+    color: var(--Primary-color);
+}
+.nav-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: -28px;
+    background-color: rgb(85, 18, 18);
+    color: var(--Primary-color);
+    border-radius: 50px;
+}
+@media (max-width: 768px) {
+    .nav-links{
+        display: none;
+    }
+    .navbar{
+        padding: 25px 15px;
+    }
+    .logo img{
+        width: 30px;
+        height: 30px;
+    }
+    .logo a{
+        font-size: 13px;
+    }
+    .cart button{
+        padding: 7.5px 15px;
+        border-radius: 30px;
+        font-size: 15px;
+      }
+    
+}

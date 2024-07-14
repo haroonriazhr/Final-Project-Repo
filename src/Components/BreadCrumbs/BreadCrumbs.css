@@ -1,0 +1,16 @@
+.breadcrumbs{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #a2a2a2;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 60px 170px;
+    text-transform: capitalize;
+}
+@media (max-width: 768px) {
+    .breadcrumbs {
+       
+        margin: 26px;
+    }
+}
